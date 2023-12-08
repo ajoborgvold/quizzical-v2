@@ -120,7 +120,8 @@ p {
     border-radius: .75em;
     background-color: var(--bg-secondary);
     color: var(--bg-primary);
-    border: 1px solid var(--bg-secondary);
+    letter-spacing: .05em;
+    border: 1.5px solid var(--bg-secondary);
     cursor: pointer;
 }
 
@@ -147,27 +148,14 @@ p {
     display: inline-block;
 }
 
-/* .enabled {
-    background-color: var(--bg-secondary);
-    color: var(--bg-primary);
-    border: 1px solid var(--bg-secondary);
-    cursor: pointer;
-}
-
-.disabled {
-    background-color: var(--btn-color-disabled);
-    color: var(--btn-bg-disabled);
-    border: 1px solid var(--btn-color-disabled);
-    cursor: not-allowed;
-} */
 
 /* Buttons hover, focus, active */
 .btn:hover,
 .btn:focus,
 .btn:active {
-    box-shadow: 0 0 5px var(--bg-primary) inset;
     outline-color: var(--color-primary);
-    outline-width: 1px;
+    outline-width: 2px;
+    box-shadow: 0 0 8px var(--bg-primary) inset, 0 0 5px var(--color-primary);
 }
 
 .btn--large:hover,
@@ -178,10 +166,6 @@ p {
     letter-spacing: .1em;
     font-weight: 700;
 }
-
-/* .disabled:hover {
-    box-shadow: unset;
-} */
 
 /* Button animations */
 .home__btn--top {
