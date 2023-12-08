@@ -10,13 +10,10 @@
 [https://quizzical-ajo-b.netlify.app/](https://quizzical-ajo-b.netlify.app/)
 
 ## App screenshots
-![Home page](/assets/home.png)
-*Home page*
-
-![Settings page](/assets/settings.png)
+![Settings page](/src/assets/settings.png)
 *Settings page*
 
-![Quiz page](/assets/quiz.png)
+![Quiz page](/src/assets/quiz.png)
 *Quiz page*
 
 ## Technologies used
