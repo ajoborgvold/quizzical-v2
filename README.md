@@ -6,6 +6,7 @@ A quiz app with questions fetched from the [Open Trivia Database](https://opentd
 2. [App screenshots](#app-screenshots)
 3. [Technologies used](#technologies-used)
 4. [Stumbling and learning points](#stumbling-and-learning-points)
+5. [Ideas for future improvements](#ideas-for-future-improvements)
 
 ## App URL
 [https://quizzical-ajo-b.netlify.app/](https://quizzical-ajo-b.netlify.app/)
@@ -31,3 +32,8 @@ This app contains three pages and the navigation between them is handled merely 
 
 ### Conditional styling
 Conditional styling plays a crucial part in this app. Depending on the quiz status – is the game still on or has the user finished the quiz – the styling should vary, right and wrong answers should be highlighted only after the quiz is over, etc. Furthermore, the user can switch between light and dark mode, which adds an extra layer to the conditional styling.
+
+## Ideas for future improvements
+1. Rebuilt the app with React.js and React Router
+2. Create visual themes that reflect the quiz category selected by the user
+3. Add Firebase auth and database, allow the user the create an account, save quiz stats and maybe even connect with other players in order to compare stats etc.
